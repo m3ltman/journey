@@ -1,0 +1,33 @@
+@import url(../header/__lang/header__lang.css);
+@import url(../header/__logo/header__logo.css);
+
+.header {
+    transform: translateY(30px);
+    padding-bottom: 90px;
+    margin: auto;
+    width: 80%;
+    /* Указал -width 80% для 1440px, потому что наш наставник сказал, что значения типа 82% дизайнеры не дают, хоть и смотрится в PP это не очень /shrug */
+    font-family: Inter;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+    .header {
+        width: 90%;
+    }
+}
+
+@media (max-width:768px) {
+    .header {
+        width: 95%;
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        transform: translateY(15px);
+        padding-bottom: 60px;
+    }
+}

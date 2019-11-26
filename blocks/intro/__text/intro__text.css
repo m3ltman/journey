@@ -1,0 +1,21 @@
+.intro__text {
+    margin: 35px 0 0;
+    width: 75%;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+@media (max-width:768px) {
+    .intro__text {
+        margin: 40px 0 0;
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .intro__text {
+        line-height: 27px;
+        margin-top: 30px;
+        width: 95%;
+    }
+}

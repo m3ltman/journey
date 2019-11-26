@@ -1,0 +1,22 @@
+.places__container {
+    width: 70%;
+    margin: auto;
+}
+
+@media (max-width: 1280px) {
+    .places__container {
+        width: 85%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .places__container {
+        width: 95%;
+    }
+}
+
+@media (max-width:495px) {
+    .places__container {
+        width: 100%;
+    }
+}

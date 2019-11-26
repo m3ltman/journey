@@ -1,0 +1,16 @@
+.content-subtitle.comments__content-subtitle {
+    width: 640px;
+}
+
+@media (max-width:768px) {
+    .content-subtitle.comments__content-subtitle {
+        width: 60%;
+        min-width: 343px;
+    }
+}
+
+@media (max-width:320px) {
+    .content-subtitle.comments__content-subtitle {
+        min-width: 288px;
+    }
+}

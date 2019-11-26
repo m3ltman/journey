@@ -1,0 +1,10 @@
+.header__lang.header__lang_ru {
+    text-decoration: none;
+    padding:0;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    width: 28px;
+    height: 24px;
+    /* Возможно то что выше - костыль, т.к. пришлось задать фиксированный размер элементу с этим модификатором, потому что text-decoration - underline через perfect
+    pixel не вставала так, как было в макете */
+}

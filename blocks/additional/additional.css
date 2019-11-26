@@ -1,0 +1,12 @@
+@import url(../additional/__container/additional__container.css);
+@import url(../additional/__heading/additional__heading.css);
+@import url(../additional/__item-bg/additional____item-bg.css);
+@import url(../additional/__item/additional__item.css);
+@import url(../additional/__text/additional__text.css);
+
+.additional {
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    margin-top: 104px;
+}

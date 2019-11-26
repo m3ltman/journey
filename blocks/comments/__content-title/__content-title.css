@@ -1,0 +1,31 @@
+.content-title.comments__content-title {
+    line-height: 75px;
+    width: 60%;
+}
+
+@media (max-width:1250px) {
+    .content-title.comments__content-title {
+        width: 74%;
+    }
+}
+
+@media (max-width:1024px) {
+    .content-title.comments__content-title {
+        width: 70%;
+        line-height: 46px;
+    }
+}
+
+@media (max-width:495px) {
+    .content-title.comments__content-title {
+        width: 70%;
+        line-height: 35px;
+        min-width: 343px;
+    }
+}
+
+@media (max-width:320px) {
+    .content-title.comments__content-title {
+        min-width: 288px;
+    }
+}

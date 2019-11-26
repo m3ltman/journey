@@ -1,0 +1,8 @@
+.additional__item-bg {
+    opacity:1;
+    transition: opacity 0.2s linear;
+}
+
+.additional__item-bg:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,18 @@
+@import url(../photo-grid/__item/photo-grid__item.css);
+@import url(../photo-grid/__container/photo-grid__container.css);
+
+.photo-grid {
+    margin-top: 95px;
+}
+
+@media (max-width: 768px) {
+    .photo-grid {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 375px) {
+    .photo-grid {
+        margin-top: 70px;
+    }
+}

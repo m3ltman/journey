@@ -1,0 +1,7 @@
+.intro__content-row {
+    display: flex;
+    margin: 22px 0 0;
+    font-size: 14px;
+    line-height: 23.5px;
+    font-weight: normal;
+}

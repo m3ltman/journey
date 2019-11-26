@@ -1,0 +1,16 @@
+.lead__image {
+    margin-top: 75px;
+    width: 100%;
+}
+
+@media (max-width: 375px) {
+    .lead__image {
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 375px) {
+    .lead__image {
+        margin-top: 50px;
+    }
+}

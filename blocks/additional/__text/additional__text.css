@@ -1,0 +1,10 @@
+.additional__text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    width: 248px;
+    margin:0;
+    position: absolute;
+    bottom: 28px;
+    left:18px;
+}

@@ -1,0 +1,17 @@
+@import url(../comment/__author/comment__author.css);
+@import url(../comment/__image/comment__image.css);
+@import url(../comment/__quote/comment__quote.css);
+
+.comment {
+    font-family: Inter;
+}
+
+@media (max-width:768px) {
+    .comment {
+        width: 54%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,19 @@
+@import url(../__lang/_eng/header__lang_en.css);
+@import url(../__lang/_ru/header__lang_ru.css);
+
+.header__lang {
+    list-style: none;
+    color: #fff;
+    font-size: 24px;
+    line-height: 23px;
+    display: flex;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+@media (max-width: 768px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 96.82%;
+    }
+}

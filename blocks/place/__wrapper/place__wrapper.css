@@ -1,0 +1,23 @@
+.place__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:1024px) {
+    .place__wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width:768px) {
+    .place__wrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width:495px) {
+    .place__wrapper {
+        width: 95%;
+        margin: auto;
+    }
+}

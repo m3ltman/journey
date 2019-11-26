@@ -1,0 +1,6 @@
+.emblem__wrapper {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 75px auto 0;
+    grid-gap: 34px;
+}

@@ -1,0 +1,46 @@
+.lead__title {
+    margin: 0 auto;
+    font-size: 6rem;
+    line-height: 93px;
+    font-weight: 900;
+    text-align: center;
+    width: 80%;
+}
+
+@media (max-width:1200px) {
+    .lead__title {
+        width: 95%;
+    }
+}
+
+@media (max-width:1024px) {
+    .lead__title {
+        width: 80%;
+    }
+}
+
+@media (max-width:930px) {
+    .lead__title {
+        width: 95%;
+    }
+}
+
+@media (max-width:768px) {
+    .lead__title {
+        width: 40%;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+
+@media (max-width: 520px) {
+    .lead__title {
+        width: 60%;
+    }
+}
+
+@media (max-width: 375px) {
+    .lead__title {
+        width: 90%;
+    }
+}

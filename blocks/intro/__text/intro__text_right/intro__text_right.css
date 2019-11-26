@@ -1,0 +1,15 @@
+.intro__text.intro__text_right {
+    font-size: 10px;
+    line-height: 16px;
+    margin:0;
+    min-width: 283px;
+    padding:0;
+}
+
+.intro__text.intro__text_right p {
+    margin:0;
+}
+
+.intro__text.intro__text_right span {
+    font-weight: bold;
+}
